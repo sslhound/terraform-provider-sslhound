@@ -2,6 +2,10 @@
 
 A [terraform](https://www.terraform.io/) for [www.sslhound.com](https://www.sslhound.com/).
 
+# Install
+
+Download the Linux, macOS, or Windows release and install it as `terraform-provider-sslhound` in your `$PATH`.
+
 # Usage
 
 Configure the provider:
@@ -34,7 +38,8 @@ Resources can also be imported:
 # Release
 
 * [ ] Did schema change and schema versions increment?
-* [ ] Did Terraform required version change?
+* [ ] Did Terraform the required version change?
+
 
     $ GOOS=linux GOARCH=amd64 go build -o terraform-provider-sslhound_v1.0.0_linux_amd64 main.go
     $ GOOS=darwin GOARCH=amd64 go build -o terraform-provider-sslhound_v1.0.0_darwin_amd64 main.go
